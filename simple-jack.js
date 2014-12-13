@@ -36,6 +36,6 @@ Jack.Simple = (function () {
     }
   };
 
-  // Load the message
+  // Load the messages
   Message.load();
 })();
