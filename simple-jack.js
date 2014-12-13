@@ -14,9 +14,9 @@ Jack.Simple = (function () {
 
       // Simple Jack messages
       var messages = [
-        "https://dl.dropboxusercontent.com/s/nc7zhg5uolvvg9j/simplejack-svenska.m4a",
-        "https://dl.dropboxusercontent.com/s/yaims8r1gecxhe0/simplejack-happy.m4a",
-        "https://dl.dropboxusercontent.com/s/1bk6cbhsiqgcq6i/simplejack-tears.m4a"
+        "http://dl.dropboxusercontent.com/s/nc7zhg5uolvvg9j/simplejack-svenska.m4a",
+        "http://dl.dropboxusercontent.com/s/yaims8r1gecxhe0/simplejack-happy.m4a",
+        "http://dl.dropboxusercontent.com/s/1bk6cbhsiqgcq6i/simplejack-tears.m4a"
       ];
 
       // Choose message
