@@ -1,6 +1,6 @@
 {
   "name": "simple-jack",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "An important message from Simple Jack!",
   "main": "simple-jack.js",
   "scripts": {
