@@ -1,0 +1,25 @@
+{
+  "name": "simple-jack",
+  "main": "simple-jack.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/johnie/simple-jack",
+  "authors": [
+    "Johnie Hjelm <johnie.hjelm@symbio.com>"
+  ],
+  "description": "An important message from Simple Jack!",
+  "keywords": [
+    "simple",
+    "jack",
+    "message",
+    "joke",
+    "crip"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
