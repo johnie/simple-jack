@@ -41,7 +41,7 @@ var banner = [
 \*------------------------------------*/
 gulp.task('scripts', function() {
   return gulp.src([
-      './*.js'
+      './simple-jack.js'
     ])
     .pipe(concat(
       'simple-jack.js'
