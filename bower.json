@@ -1,7 +1,7 @@
 {
   "name": "simple-jack",
   "main": "simple-jack.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/johnie/simple-jack",
   "authors": [
     "Johnie Hjelm <johnie.hjelm@symbio.com>"
