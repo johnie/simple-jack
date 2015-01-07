@@ -15,6 +15,11 @@ Jack.Simple = (function () {
       // Create the audio element
       var audio = document.createElement('AUDIO');
 
+      // Randomizer for messages array
+      Array.prototype.randomizr = function () {
+        return this[Math.floor((Math.random()*this.length))];
+      }
+
       // Simple Jack messages
       var messages = [
         'http://dl.dropboxusercontent.com/s/nc7zhg5uolvvg9j/simplejack-svenska.m4a',
@@ -25,11 +30,8 @@ Jack.Simple = (function () {
         'http://dl.dropboxusercontent.com/s/2jid88eyr2oiaf3/simplejack-timmy.m4a'
       ];
 
-      // Choose message
-      var randMessage = messages[Math.floor(Math.random() * messages.length)];
-
       // Audio properties
-      audio.src = randMessage;
+      audio.src = messages.randomizr();
       audio.autoplay = true;
 
       // Container
