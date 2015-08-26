@@ -14,6 +14,7 @@ var uglify       = require('gulp-uglify');
 var header       = require('gulp-header');
 var rename       = require('gulp-rename');
 var concat       = require('gulp-concat');
+var babel        = require('gulp-babel');
 
 
 /*------------------------------------*\
@@ -43,6 +44,7 @@ gulp.task('scripts', function() {
   return gulp.src([
       './simple-jack.js'
     ])
+    .pipe(babel())
     .pipe(concat(
       'simple-jack.js'
     ))

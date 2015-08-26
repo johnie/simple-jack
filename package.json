@@ -25,6 +25,7 @@
   "homepage": "https://github.com/johnie/simple-jack",
   "devDependencies": {
     "gulp": "^3.8.10",
+    "gulp-babel": "^5.2.1",
     "gulp-concat": "^2.4.3",
     "gulp-header": "^1.2.2",
     "gulp-rename": "^1.2.0",
