@@ -15,6 +15,7 @@ var header       = require('gulp-header');
 var rename       = require('gulp-rename');
 var concat       = require('gulp-concat');
 var babel        = require('gulp-babel');
+var argv         = require('yargs').argv;
 
 
 /*------------------------------------*\
@@ -40,13 +41,18 @@ var banner = [
   Scripts task
 
 \*------------------------------------*/
+var sources = {
+  vanilla: 'simple-jack.js',
+  es6: 'simple-jack.es6.js'
+}
+
 gulp.task('scripts', function() {
   return gulp.src([
-      './simple-jack.js'
+      './' + (argv.src == 'es6') ? sources.es6 : sources.vanilla
     ])
     .pipe(babel())
     .pipe(concat(
-      'simple-jack.js'
+      (argv.src == 'es6') ? sources.es6 : sources.vanilla
     ))
     .pipe(uglify())
     .pipe(rename({

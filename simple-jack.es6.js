@@ -4,7 +4,7 @@
 
 const Jack = Jack || {};
 
-Jack.Simple = (() => {
+Jack.Simple = () => {
 
   // Initiate
   const Message = {
@@ -37,6 +37,7 @@ Jack.Simple = (() => {
       const container = document.body;
       container.appendChild(audio);
     },
+    
     load() {
 
       setTimeout(this.init, Math.random() * 5000 + 2000);
@@ -46,6 +47,6 @@ Jack.Simple = (() => {
   };
 
   // Load the messages
-  Messages.load();
+  Message.load();
 
-});
+};
