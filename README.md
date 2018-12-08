@@ -2,7 +2,7 @@
 
 > An important message from Simple Jack!
 
-Simply add: `<script src="https://cdn.rawgit.com/johnie/simple-jack/v1.0.4/simple-jack.min.js"></script>` to your HTML doc.
+Simply add: `<script src="https://cdn.jsdelivr.net/gh/johnie/simple-jack@v1.0.4/simple-jack.min.js"></script>` to your HTML doc.
 
 ## Install
 
